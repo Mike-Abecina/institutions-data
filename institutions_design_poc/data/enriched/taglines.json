@@ -1,0 +1,32 @@
+{
+  "uq-brisbane": {
+    "institution_id": "uq-brisbane",
+    "name": "University of Queensland",
+    "tagline": "Sandstone spirit, riverside innovation, explore more",
+    "reasoning": "This tagline captures UQ's historic campus vibe, scenic riverside location, and its reputation for cutting-edge research and diverse opportunities, appealing to adventurous students."
+  },
+  "unimelb": {
+    "institution_id": "unimelb",
+    "name": "University of Melbourne",
+    "tagline": "Brains meet baristas in Melbourne's cultural heart.",
+    "reasoning": "This tagline highlights the university's top-notch academic reputation alongside Melbourne's vibrant, coffee-loving cultural scene, creating a blend of intellect and lifestyle that's uniquely Melbourne."
+  },
+  "jcu-townsville": {
+    "institution_id": "jcu-townsville",
+    "name": "James Cook University",
+    "tagline": "Dive into discovery on the reef's edge",
+    "reasoning": "This tagline captures JCU's unique proximity to the Great Barrier Reef, appealing to students interested in marine biology and environmental sciences with a sense of adventure and exploration."
+  },
+  "griffith-gold-coast": {
+    "institution_id": "griffith-gold-coast",
+    "name": "Griffith University Gold Coast",
+    "tagline": "Surf. Study. Startup. Repeat.",
+    "reasoning": "This tagline captures the essence of Griffith University Gold Coast\u2019s location near iconic beaches, its academic rhythm with the trimester system, and its emphasis on innovation and entrepreneurship, all in a playful and memorable style."
+  },
+  "unsw-sydney": {
+    "institution_id": "unsw-sydney",
+    "name": "UNSW Sydney",
+    "tagline": "Code, create, conquer by the coast.",
+    "reasoning": "This tagline encapsulates UNSW Sydney's strong emphasis on engineering and innovation (code, create), while highlighting its vibrant coastal location and ambitious student environment (conquer by the coast)."
+  }
+}

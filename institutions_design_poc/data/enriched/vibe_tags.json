@@ -1,0 +1,97 @@
+{
+  "jcu-townsville": {
+    "institution_id": "jcu-townsville",
+    "name": "James Cook University",
+    "vibe_tags": [
+      "reef-adjacent",
+      "tropical-breeze",
+      "wildlife-campus",
+      "tight-knit",
+      "heritage-research"
+    ],
+    "campus_mood": {
+      "study": 75,
+      "social": 68,
+      "chill": 85
+    },
+    "student_quote": "Studying Marine Biology here at JCU is unreal! You literally get to do research on the Great Barrier Reef, and the community is super supportive and close-knit.",
+    "student_quote_author": "Liam",
+    "student_quote_year": "2nd year Marine Biology"
+  },
+  "griffith-gold-coast": {
+    "institution_id": "griffith-gold-coast",
+    "name": "Griffith University Gold Coast",
+    "vibe_tags": [
+      "surf-and-study",
+      "trimester-hustle",
+      "sports-savvy",
+      "tech-innovation",
+      "beach-adjacent"
+    ],
+    "campus_mood": {
+      "study": 70,
+      "social": 85,
+      "chill": 75
+    },
+    "student_quote": "Studying here is like balancing on a surfboard\u2014there's always something happening, whether it's on the beach or with the latest tech startup. It's the perfect mix of work and play.",
+    "student_quote_author": "Zoe",
+    "student_quote_year": "2nd year Film & Screen Media"
+  },
+  "uq-brisbane": {
+    "institution_id": "uq-brisbane",
+    "name": "University of Queensland",
+    "vibe_tags": [
+      "sandstone-vibes",
+      "riverside-chill",
+      "research-heavy",
+      "club-haven",
+      "vaccine-pioneers"
+    ],
+    "campus_mood": {
+      "study": 85,
+      "social": 78,
+      "chill": 70
+    },
+    "student_quote": "Walking through the Great Court feels like stepping into a historical movie set, but the real action is all the late-night brainstorming sessions at the lakeside. UQ is where you'll find your tribe, no matter your passion.",
+    "student_quote_author": "Alex",
+    "student_quote_year": "2nd year Biomedical Science"
+  },
+  "unimelb": {
+    "institution_id": "unimelb",
+    "name": "University of Melbourne",
+    "vibe_tags": [
+      "heritage-quad",
+      "laneway-culture",
+      "foodie-paradise",
+      "research-heavy",
+      "melbourne-model"
+    ],
+    "campus_mood": {
+      "study": 85,
+      "social": 78,
+      "chill": 60
+    },
+    "student_quote": "Studying here is like being at the heart of Melbourne's culture, with a mix of intense academia and a vibrant social scene. I love grabbing a coffee in a laneway before diving into research.",
+    "student_quote_author": "Ava",
+    "student_quote_year": "2nd year Arts & Humanities"
+  },
+  "unsw-sydney": {
+    "institution_id": "unsw-sydney",
+    "name": "UNSW Sydney",
+    "vibe_tags": [
+      "urban-buzz",
+      "engineering-powerhouse",
+      "multicultural-mix",
+      "industry-ties",
+      "beach-proximity"
+    ],
+    "campus_mood": {
+      "study": 85,
+      "social": 78,
+      "chill": 70
+    },
+    "student_quote": "UNSW is like a melting pot of cultures and ideas, with so many opportunities to connect with industry right at our doorstep. Plus, being just a quick bus ride from the beach is a total game-changer.",
+    "student_quote_author": "Emily",
+    "student_quote_year": "2nd year Computer Science"
+  }
+}

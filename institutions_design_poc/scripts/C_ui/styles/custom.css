@@ -1,0 +1,962 @@
+/* ==========================================================================
+   VIBE CHECK -- Custom Streamlit CSS
+   Dark-mode-first, Gen Z aesthetic with coral / mint / purple accents.
+   ========================================================================== */
+
+/* ---- Web fonts from Fontshare ---- */
+@import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=general-sans@400,500,600,700&display=swap');
+
+/* ==========================================================================
+   0. CSS Custom Properties
+   ========================================================================== */
+:root {
+    --midnight: #0D0D0D;
+    --midnight-light: #1A1A2E;
+    --card-bg: #181818;
+    --card-border: #2A2A2A;
+    --coral: #FF5733;
+    --mint: #00E5A0;
+    --purple: #7C5CFC;
+    --golden: #FFD166;
+    --white: #F5F5F5;
+    --text-secondary: #AAAAAA;
+    --radius: 16px;
+    --radius-sm: 10px;
+    --radius-pill: 999px;
+    --font-heading: 'Cabinet Grotesk', 'Inter', sans-serif;
+    --font-body: 'General Sans', 'Inter', sans-serif;
+    --transition: 0.25s cubic-bezier(.4,0,.2,1);
+}
+
+/* ==========================================================================
+   1. Global resets & dark background
+   ========================================================================== */
+html, body, [data-testid="stAppViewContainer"],
+[data-testid="stApp"],
+.main, .block-container,
+[data-testid="stAppViewBlockContainer"] {
+    background-color: var(--midnight) !important;
+    color: var(--white) !important;
+    font-family: var(--font-body) !important;
+}
+
+/* Remove Streamlit default padding */
+.block-container {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    max-width: 1200px !important;
+}
+
+/* Sidebar dark */
+[data-testid="stSidebar"],
+[data-testid="stSidebar"] > div {
+    background-color: var(--midnight-light) !important;
+}
+
+/* Header bar hidden for cleaner look */
+header[data-testid="stHeader"] {
+    background-color: var(--midnight) !important;
+}
+
+/* Hide Streamlit footer + hamburger menu */
+footer { visibility: hidden !important; }
+#MainMenu { visibility: hidden !important; }
+
+/* ==========================================================================
+   2. Typography
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6,
+[data-testid="stMarkdownContainer"] h1,
+[data-testid="stMarkdownContainer"] h2,
+[data-testid="stMarkdownContainer"] h3 {
+    font-family: var(--font-heading) !important;
+    color: var(--white) !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.02em;
+}
+
+h1, [data-testid="stMarkdownContainer"] h1 {
+    font-size: 2.4rem !important;
+}
+
+h2, [data-testid="stMarkdownContainer"] h2 {
+    font-size: 1.6rem !important;
+}
+
+h3, [data-testid="stMarkdownContainer"] h3 {
+    font-size: 1.25rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+p, span, li, div, label, td, th,
+[data-testid="stMarkdownContainer"] p {
+    font-family: var(--font-body) !important;
+    color: var(--white) !important;
+}
+
+a {
+    color: var(--coral) !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: var(--mint) !important;
+}
+
+/* ==========================================================================
+   3. Streamlit Tab overrides
+   ========================================================================== */
+/* Tab container */
+[data-testid="stTabs"] {
+    background: transparent !important;
+}
+
+/* Tab list bar */
+[data-testid="stTabs"] [role="tablist"] {
+    gap: 0 !important;
+    border-bottom: 2px solid var(--card-border) !important;
+    background: transparent !important;
+}
+
+/* Individual tabs */
+[data-testid="stTabs"] button[role="tab"] {
+    font-family: var(--font-heading) !important;
+    font-weight: 700 !important;
+    font-size: 0.95rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.08em !important;
+    color: var(--text-secondary) !important;
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 3px solid transparent !important;
+    padding: 0.75rem 1.5rem !important;
+    transition: var(--transition) !important;
+    border-radius: 0 !important;
+}
+
+[data-testid="stTabs"] button[role="tab"]:hover {
+    color: var(--white) !important;
+    border-bottom-color: var(--purple) !important;
+}
+
+/* Active tab -- cycle colours per position */
+[data-testid="stTabs"] button[role="tab"][aria-selected="true"] {
+    color: var(--white) !important;
+    border-bottom-color: var(--coral) !important;
+}
+
+/* Colour cycle for tabs via nth-child */
+[data-testid="stTabs"] button[role="tab"][aria-selected="true"]:nth-child(1) {
+    border-bottom-color: var(--coral) !important;
+}
+[data-testid="stTabs"] button[role="tab"][aria-selected="true"]:nth-child(2) {
+    border-bottom-color: var(--mint) !important;
+}
+[data-testid="stTabs"] button[role="tab"][aria-selected="true"]:nth-child(3) {
+    border-bottom-color: var(--purple) !important;
+}
+[data-testid="stTabs"] button[role="tab"][aria-selected="true"]:nth-child(4) {
+    border-bottom-color: var(--golden) !important;
+}
+
+/* Tab content panel */
+[data-testid="stTabs"] [role="tabpanel"] {
+    padding-top: 1.5rem !important;
+}
+
+/* ==========================================================================
+   4. Cards
+   ========================================================================== */
+.vibe-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius);
+    padding: 0;
+    overflow: hidden;
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.vibe-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+
+/* Hero gradient section inside cards */
+.hero-gradient {
+    padding: 3rem 2rem 2rem;
+    position: relative;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.hero-gradient h1 {
+    font-size: 2.2rem !important;
+    margin-bottom: 0.25rem !important;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.hero-gradient .hero-location {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-bottom: 0.5rem;
+}
+
+.hero-gradient .hero-tagline {
+    font-style: italic;
+    font-size: 1.1rem;
+    opacity: 0.95;
+    margin-top: 0.5rem;
+}
+
+/* Card body beneath hero */
+.card-body {
+    padding: 1.5rem 2rem 2rem;
+}
+
+/* ==========================================================================
+   5. Tag pills
+   ========================================================================== */
+.tag-pill {
+    display: inline-block;
+    padding: 0.3rem 0.85rem;
+    border-radius: var(--radius-pill);
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: var(--font-body);
+    margin: 0.2rem 0.3rem 0.2rem 0;
+    color: var(--midnight);
+    transition: transform var(--transition);
+    white-space: nowrap;
+}
+
+.tag-pill:hover {
+    transform: scale(1.05);
+}
+
+/* Coloured pill variants */
+.tag-coral   { background: var(--coral); }
+.tag-mint    { background: var(--mint); }
+.tag-purple  { background: var(--purple); color: var(--white); }
+.tag-golden  { background: var(--golden); }
+.tag-muted   { background: var(--card-border); color: var(--white); }
+
+/* ==========================================================================
+   6. Progress bars (mood bars, quiz progress)
+   ========================================================================== */
+/* Streamlit native progress bar override */
+[data-testid="stProgress"] > div > div {
+    background-color: var(--card-border) !important;
+    border-radius: var(--radius-pill) !important;
+    height: 10px !important;
+}
+
+[data-testid="stProgress"] > div > div > div {
+    background: linear-gradient(90deg, var(--coral), var(--golden)) !important;
+    border-radius: var(--radius-pill) !important;
+}
+
+/* Custom mood bars */
+.mood-bar-container {
+    margin: 0.4rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.mood-bar-label {
+    width: 70px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-align: right;
+    color: var(--text-secondary);
+}
+
+.mood-bar-track {
+    flex: 1;
+    height: 12px;
+    background: var(--card-border);
+    border-radius: var(--radius-pill);
+    overflow: hidden;
+}
+
+.mood-bar-fill {
+    height: 100%;
+    border-radius: var(--radius-pill);
+    transition: width 0.8s cubic-bezier(.4,0,.2,1);
+}
+
+.mood-bar-fill.coral  { background: linear-gradient(90deg, var(--coral), #FF8A65); }
+.mood-bar-fill.mint   { background: linear-gradient(90deg, var(--mint), #00B8D4); }
+.mood-bar-fill.purple { background: linear-gradient(90deg, var(--purple), #B388FF); }
+
+.mood-bar-value {
+    width: 40px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--white);
+}
+
+/* ==========================================================================
+   7. Venue cards (eats tab)
+   ========================================================================== */
+.venue-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius-sm);
+    padding: 1rem 1.2rem;
+    margin-bottom: 0.75rem;
+    transition: border-color var(--transition);
+}
+
+.venue-card:hover {
+    border-color: var(--coral);
+}
+
+.venue-card .venue-name {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--white);
+    margin-bottom: 0.25rem;
+}
+
+.venue-card .venue-meta {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.venue-card .venue-quote {
+    font-style: italic;
+    font-size: 0.85rem;
+    color: var(--mint);
+    margin-bottom: 0.25rem;
+}
+
+.venue-card .venue-reviewer {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+/* ==========================================================================
+   8. Timeline (day in the life)
+   ========================================================================== */
+.timeline {
+    position: relative;
+    padding-left: 2.5rem;
+    margin: 1rem 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 1rem;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg, var(--coral), var(--purple), var(--mint));
+    border-radius: 2px;
+}
+
+.timeline-entry {
+    position: relative;
+    padding: 0.75rem 0 0.75rem 1rem;
+}
+
+.timeline-entry::before {
+    content: '';
+    position: absolute;
+    left: -1.55rem;
+    top: 1.1rem;
+    width: 10px;
+    height: 10px;
+    background: var(--coral);
+    border-radius: 50%;
+    border: 2px solid var(--midnight);
+    z-index: 1;
+}
+
+.timeline-entry:nth-child(2n)::before { background: var(--purple); }
+.timeline-entry:nth-child(3n)::before { background: var(--mint); }
+
+.timeline-time {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--coral);
+    margin-right: 0.5rem;
+}
+
+.timeline-emoji {
+    font-size: 1.1rem;
+    margin-right: 0.4rem;
+}
+
+.timeline-desc {
+    font-size: 0.9rem;
+    color: var(--white);
+}
+
+/* ==========================================================================
+   9. Cost bars
+   ========================================================================== */
+.cost-bar-container {
+    margin: 0.75rem 0;
+}
+
+.cost-bar-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.3rem;
+}
+
+.cost-bar-label {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.cost-bar-value {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--coral);
+}
+
+.cost-bar-track {
+    height: 14px;
+    background: var(--card-border);
+    border-radius: var(--radius-pill);
+    overflow: hidden;
+}
+
+.cost-bar-fill {
+    height: 100%;
+    border-radius: var(--radius-pill);
+    background: linear-gradient(90deg, var(--coral), var(--golden));
+    transition: width 0.8s cubic-bezier(.4,0,.2,1);
+}
+
+/* Weekly budget stacked bars */
+.budget-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.35rem 0;
+}
+
+.budget-row .budget-label {
+    width: 80px;
+    font-size: 0.85rem;
+    text-align: right;
+    color: var(--text-secondary);
+}
+
+.budget-row .budget-bar {
+    flex: 1;
+    height: 16px;
+    background: var(--card-border);
+    border-radius: var(--radius-pill);
+    overflow: hidden;
+}
+
+.budget-row .budget-fill {
+    height: 100%;
+    border-radius: var(--radius-pill);
+    transition: width 0.6s ease;
+}
+
+.budget-row .budget-amount {
+    width: 60px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    font-family: var(--font-heading);
+}
+
+.budget-fill.rent      { background: var(--coral); }
+.budget-fill.food      { background: var(--golden); }
+.budget-fill.transport { background: var(--purple); }
+.budget-fill.fun       { background: var(--mint); }
+
+/* ==========================================================================
+   10. Buttons
+   ========================================================================== */
+/* Primary buttons */
+[data-testid="stButton"] > button,
+button[kind="primary"],
+.stButton > button {
+    background: var(--coral) !important;
+    color: var(--midnight) !important;
+    border: none !important;
+    border-radius: var(--radius-pill) !important;
+    font-family: var(--font-heading) !important;
+    font-weight: 700 !important;
+    font-size: 0.9rem !important;
+    letter-spacing: 0.04em !important;
+    padding: 0.6rem 1.6rem !important;
+    transition: all var(--transition) !important;
+    text-transform: uppercase !important;
+}
+
+[data-testid="stButton"] > button:hover,
+.stButton > button:hover {
+    background: var(--mint) !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 16px rgba(0,229,160,0.3) !important;
+}
+
+[data-testid="stButton"] > button:active,
+.stButton > button:active {
+    transform: translateY(0) !important;
+}
+
+/* Secondary / outline buttons */
+[data-testid="stButton"] > button[kind="secondary"] {
+    background: transparent !important;
+    border: 2px solid var(--coral) !important;
+    color: var(--coral) !important;
+}
+
+/* ==========================================================================
+   11. Metric cards
+   ========================================================================== */
+[data-testid="stMetric"],
+[data-testid="metric-container"] {
+    background: var(--card-bg) !important;
+    border: 1px solid var(--card-border) !important;
+    border-radius: var(--radius-sm) !important;
+    padding: 1rem !important;
+}
+
+[data-testid="stMetricLabel"] {
+    color: var(--text-secondary) !important;
+}
+
+[data-testid="stMetricValue"] {
+    font-family: var(--font-heading) !important;
+    font-weight: 800 !important;
+    color: var(--coral) !important;
+}
+
+/* ==========================================================================
+   12. Blockquote cards (student quotes)
+   ========================================================================== */
+.student-quote {
+    background: var(--card-bg);
+    border-left: 4px solid var(--mint);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    padding: 1.25rem 1.5rem;
+    margin: 1rem 0;
+    position: relative;
+}
+
+.student-quote::before {
+    content: '\201C';
+    font-size: 3rem;
+    color: var(--mint);
+    position: absolute;
+    top: -0.25rem;
+    left: 0.75rem;
+    opacity: 0.3;
+    font-family: serif;
+}
+
+.student-quote p {
+    font-style: italic;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: var(--white) !important;
+    margin-bottom: 0.5rem;
+}
+
+.student-quote .quote-author {
+    font-size: 0.85rem;
+    color: var(--text-secondary) !important;
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   13. Scholarship cards
+   ========================================================================== */
+.scholarship-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-left: 4px solid var(--golden);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    padding: 0.75rem 1rem;
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scholarship-card .scholarship-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--white);
+}
+
+.scholarship-card .scholarship-amount {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 1rem;
+    color: var(--golden);
+}
+
+/* ==========================================================================
+   14. Info cards (transport, safety)
+   ========================================================================== */
+.info-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius-sm);
+    padding: 1rem 1.25rem;
+    margin: 0.75rem 0;
+}
+
+.info-card h4 {
+    font-family: var(--font-heading) !important;
+    font-weight: 700 !important;
+    font-size: 0.95rem !important;
+    color: var(--coral) !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem !important;
+}
+
+.info-card li {
+    font-size: 0.9rem;
+    color: var(--white) !important;
+    margin-bottom: 0.3rem;
+    list-style: none;
+    padding-left: 0.5rem;
+}
+
+.info-card li::before {
+    content: '\2022';
+    color: var(--mint);
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+/* ==========================================================================
+   15. Vibe Quiz cards
+   ========================================================================== */
+.quiz-option {
+    border-radius: var(--radius);
+    padding: 2rem 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: transform var(--transition), box-shadow var(--transition);
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-option:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+
+.quiz-option .quiz-emoji {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.quiz-option .quiz-label {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.quiz-option .quiz-sub {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.8);
+    margin-top: 0.25rem;
+}
+
+/* ==========================================================================
+   16. Video placeholder
+   ========================================================================== */
+.video-placeholder {
+    background: var(--card-bg);
+    border: 2px dashed var(--card-border);
+    border-radius: var(--radius-sm);
+    padding: 2rem;
+    text-align: center;
+    color: var(--text-secondary);
+    margin: 1rem 0;
+}
+
+.video-placeholder .play-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.6;
+}
+
+/* ==========================================================================
+   17. Social proof badge
+   ========================================================================== */
+.social-proof {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: rgba(255,87,51,0.12);
+    border: 1px solid rgba(255,87,51,0.3);
+    border-radius: var(--radius-pill);
+    padding: 0.35rem 0.9rem;
+    font-size: 0.8rem;
+    color: var(--coral);
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
+/* ==========================================================================
+   18. Metric pill row (for walk score etc.)
+   ========================================================================== */
+.metric-pill-row {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin: 0.75rem 0;
+}
+
+.metric-pill {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius-sm);
+    padding: 0.6rem 1rem;
+    text-align: center;
+    min-width: 100px;
+    flex: 1;
+}
+
+.metric-pill .metric-value {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 1.4rem;
+    color: var(--coral);
+    display: block;
+}
+
+.metric-pill .metric-label {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* ==========================================================================
+   19. Compare view helpers
+   ========================================================================== */
+.compare-winner {
+    color: var(--mint) !important;
+    font-weight: 700 !important;
+}
+
+.compare-row {
+    border-bottom: 1px solid var(--card-border);
+    padding: 0.5rem 0;
+}
+
+.compare-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary) !important;
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   20. Streamlit element overrides (inputs, expanders, etc.)
+   ========================================================================== */
+/* Text inputs */
+[data-testid="stTextInput"] input,
+[data-testid="stSelectbox"] > div > div,
+[data-testid="stMultiSelect"] > div > div {
+    background-color: var(--card-bg) !important;
+    color: var(--white) !important;
+    border: 1px solid var(--card-border) !important;
+    border-radius: var(--radius-sm) !important;
+}
+
+/* Expanders */
+[data-testid="stExpander"] {
+    background: var(--card-bg) !important;
+    border: 1px solid var(--card-border) !important;
+    border-radius: var(--radius-sm) !important;
+}
+
+[data-testid="stExpander"] summary {
+    color: var(--white) !important;
+}
+
+/* Dividers */
+hr, [data-testid="stMarkdownContainer"] hr {
+    border-color: var(--card-border) !important;
+}
+
+/* Columns gap */
+[data-testid="stHorizontalBlock"] {
+    gap: 1rem !important;
+}
+
+/* ==========================================================================
+   21. Navigation pills (top bar)
+   ========================================================================== */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 0.5rem 0 1.5rem;
+}
+
+.nav-pill {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.5rem 1.5rem;
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    transition: all var(--transition);
+    text-decoration: none !important;
+    border: 2px solid var(--card-border);
+    color: var(--text-secondary);
+    background: transparent;
+}
+
+.nav-pill:hover {
+    border-color: var(--coral);
+    color: var(--white);
+}
+
+.nav-pill.active {
+    background: var(--coral);
+    border-color: var(--coral);
+    color: var(--midnight);
+}
+
+/* ==========================================================================
+   22. Save button animation
+   ========================================================================== */
+.save-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: transparent;
+    border: 2px solid var(--coral);
+    color: var(--coral);
+    border-radius: var(--radius-pill);
+    padding: 0.5rem 1.2rem;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all var(--transition);
+    text-transform: uppercase;
+}
+
+.save-btn:hover {
+    background: var(--coral);
+    color: var(--midnight);
+}
+
+.save-btn.saved {
+    background: var(--mint);
+    border-color: var(--mint);
+    color: var(--midnight);
+}
+
+/* ==========================================================================
+   23. Responsive adjustments
+   ========================================================================== */
+@media (max-width: 768px) {
+    .block-container {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    h1, [data-testid="stMarkdownContainer"] h1 {
+        font-size: 1.8rem !important;
+    }
+
+    .hero-gradient {
+        padding: 2rem 1.25rem 1.5rem;
+        min-height: 160px;
+    }
+
+    .hero-gradient h1 {
+        font-size: 1.6rem !important;
+    }
+
+    .card-body {
+        padding: 1rem 1.25rem 1.5rem;
+    }
+
+    [data-testid="stTabs"] button[role="tab"] {
+        padding: 0.5rem 0.75rem !important;
+        font-size: 0.8rem !important;
+    }
+
+    .metric-pill-row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    h1, [data-testid="stMarkdownContainer"] h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .tag-pill {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.6rem;
+    }
+}
+
+/* ==========================================================================
+   24. Animations
+   ========================================================================== */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.animate-in {
+    animation: fadeInUp 0.5s ease forwards;
+}
+
+.pulse {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+/* Total budget highlight */
+.budget-total {
+    background: linear-gradient(135deg, var(--coral), var(--golden));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 1.8rem;
+}

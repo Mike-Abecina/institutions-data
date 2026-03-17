@@ -1,0 +1,977 @@
+[
+  {
+    "id": "jcu-townsville",
+    "name": "James Cook University",
+    "city": "Townsville",
+    "state": "QLD",
+    "latitude": -19.3299,
+    "longitude": 146.7578,
+    "institution_type": "University",
+    "student_count": 22000,
+    "tagline": "Dive into discovery on the reef's edge",
+    "tagline_reasoning": "This tagline captures JCU's unique proximity to the Great Barrier Reef, appealing to students interested in marine biology and environmental sciences with a sense of adventure and exploration.",
+    "hero_gradient": "linear-gradient(160deg, hsl(15, 64%, 41%), hsl(83, 67%, 43%))",
+    "tags": [
+      "Marine Biology",
+      "Environmental Science",
+      "Tropical Medicine",
+      "Only uni in the world located next to two World Heritage sites"
+    ],
+    "vibe_tags": [
+      "reef-adjacent",
+      "tropical-breeze",
+      "wildlife-campus",
+      "tight-knit",
+      "heritage-research"
+    ],
+    "campus_mood": {
+      "study": 75,
+      "social": 68,
+      "chill": 85
+    },
+    "student_quote": "Studying Marine Biology here at JCU is unreal! You literally get to do research on the Great Barrier Reef, and the community is super supportive and close-knit.",
+    "student_quote_author": "Liam",
+    "student_quote_year": "2nd year Marine Biology",
+    "walk_score": 45,
+    "transit_score": 25,
+    "bike_score": 55,
+    "nearby_venues": [
+      {
+        "name": "Jam Corner",
+        "venue_type": "cafe",
+        "distance_walk_min": 3,
+        "student_review": "Best study spot on campus -- strong flat whites and power outlets everywhere.",
+        "student_reviewer": "Mia T., 2nd yr Marine Bio",
+        "rating": 4.5,
+        "price_level": "$"
+      },
+      {
+        "name": "The Coffee Club Douglas",
+        "venue_type": "cafe",
+        "distance_walk_min": 6,
+        "student_review": "Reliable brekkie before an 8am lecture. The big-brekkie wrap is a lifesaver.",
+        "student_reviewer": "Jake P., 3rd yr Vet Science",
+        "rating": 4.0,
+        "price_level": "$$"
+      },
+      {
+        "name": "Donna Thai",
+        "venue_type": "restaurant",
+        "distance_walk_min": 8,
+        "student_review": "Cheapest pad thai in Townsville and massive portions. Student budget approved.",
+        "student_reviewer": "Priya S., 1st yr Nursing",
+        "rating": 4.3,
+        "price_level": "$"
+      },
+      {
+        "name": "Brewery Townsville",
+        "venue_type": "bar",
+        "distance_walk_min": 15,
+        "student_review": "Friday arvo beers with the cohort. Live music some weekends too.",
+        "student_reviewer": "Tom R., 4th yr Engineering",
+        "rating": 4.4,
+        "price_level": "$$"
+      },
+      {
+        "name": "Palmer Street Food Precinct",
+        "venue_type": "restaurant",
+        "distance_walk_min": 18,
+        "student_review": "A whole strip of restaurants -- we always end up here after exams.",
+        "student_reviewer": "Chloe W., 2nd yr Psychology",
+        "rating": 4.2,
+        "price_level": "$$"
+      }
+    ],
+    "cafes_10min": 2,
+    "bars_10min": 0,
+    "beaches_15min": 3,
+    "day_in_life": [
+      {
+        "time": "07:00",
+        "activity": "Morning beach run",
+        "emoji": "\ud83c\udfd6\ufe0f",
+        "description": "Start the day with a refreshing jog along The Strand, enjoying the ocean breeze and stunning sunrise over Magnetic Island.",
+        "photo_prompt": "Joggers on The Strand beach at sunrise, ocean view, Magnetic Island in background, palm trees swaying"
+      },
+      {
+        "time": "09:00",
+        "activity": "Lecture at Eddie Koiki Mabo Library",
+        "emoji": "\ud83d\udcda",
+        "description": "Head to the Eddie Koiki Mabo Library for a Marine Biology lecture, taking notes in the light-filled study spaces.",
+        "photo_prompt": "Students taking notes in Eddie Koiki Mabo Library, bright interior, bookshelves, laptops open, tropical plants indoors"
+      },
+      {
+        "time": "11:30",
+        "activity": "Coffee at Juliette's",
+        "emoji": "\u2615",
+        "description": "Grab a flat white and catch up with mates at Juliette's on Flinders Street, a favourite student hangout.",
+        "photo_prompt": "Friends chatting at Juliette's cafe, Flinders Street, busy urban setting, coffee cups, laughter"
+      },
+      {
+        "time": "13:00",
+        "activity": "Snorkel at Great Barrier Reef",
+        "emoji": "\ud83d\udc20",
+        "description": "Join a research trip to the Great Barrier Reef, marvelling at the vibrant corals and diverse marine life.",
+        "photo_prompt": "Students snorkeling in Great Barrier Reef, colourful corals, tropical fish, crystal clear water, underwater research"
+      },
+      {
+        "time": "15:30",
+        "activity": "Study group at Campus Green",
+        "emoji": "\ud83c\udf34",
+        "description": "Discuss environmental science projects with classmates on the grassy Campus Green, surrounded by tropical flora and fauna.",
+        "photo_prompt": "Students sitting on Campus Green, notebooks and laptops, tropical plants and trees, relaxed atmosphere"
+      },
+      {
+        "time": "18:00",
+        "activity": "Dinner at The Watermark",
+        "emoji": "\ud83c\udf7d\ufe0f",
+        "description": "Enjoy a seafood dinner at The Watermark, sharing stories from the day while overlooking the marina's twinkling lights.",
+        "photo_prompt": "Seafood dinner at The Watermark, waterfront view, marina lights, friends laughing, elegant presentation"
+      },
+      {
+        "time": "20:30",
+        "activity": "Stargazing at Castle Hill",
+        "emoji": "\ud83c\udf0c",
+        "description": "Drive up to Castle Hill for an evening of stargazing, spotting constellations in the clear tropical night sky.",
+        "photo_prompt": "Group stargazing at Castle Hill, vast night sky, visible constellations, Townsville lights below, sense of wonder"
+      }
+    ],
+    "clubs": [
+      "JCU Reef & Rainforest Society",
+      "Marine Biology Students Association",
+      "JCU Rugby Union Club",
+      "Townsville Adventure Club",
+      "Indigenous Students Society"
+    ],
+    "transport": {
+      "bus_to_cbd": "15 min",
+      "airport": "20 min drive",
+      "nearest_beach": "The Strand -- 10 min drive",
+      "parking": "Free on campus"
+    },
+    "safety_support": [
+      "24/7 campus security",
+      "SafeZone app for emergencies",
+      "Free counselling services",
+      "After-hours study space escorts"
+    ],
+    "cost": {
+      "tuition_range_low": 7200,
+      "tuition_range_high": 11800,
+      "tuition_comparison": "Lowest of the five -- regional pricing advantage",
+      "rent_range_low": 140,
+      "rent_range_high": 280,
+      "rent_comparison": "Cheapest of the five -- regional advantage",
+      "weekly_budget": {
+        "rent": 160,
+        "food": 70,
+        "transport": 30,
+        "fun": 40,
+        "total": 300
+      },
+      "total_weekly": 300
+    },
+    "scholarships": [
+      {
+        "name": "JCU Regional Scholarship",
+        "amount": "$6,000/yr",
+        "eligibility": "Regional QLD students"
+      },
+      {
+        "name": "JCU Excellence Scholarship",
+        "amount": "$10,000/yr",
+        "eligibility": "ATAR 95+"
+      }
+    ],
+    "top_courses": [
+      "Marine Biology",
+      "Environmental Science",
+      "Tropical Medicine",
+      "Veterinary Science",
+      "Tourism & Hospitality"
+    ],
+    "vibe_location": "beach",
+    "vibe_energy": "discovering",
+    "vibe_weekend": "bushwalk"
+  },
+  {
+    "id": "griffith-gold-coast",
+    "name": "Griffith University Gold Coast",
+    "city": "Gold Coast",
+    "state": "QLD",
+    "latitude": -27.9621,
+    "longitude": 153.3822,
+    "institution_type": "University",
+    "student_count": 50000,
+    "tagline": "Surf. Study. Startup. Repeat.",
+    "tagline_reasoning": "This tagline captures the essence of Griffith University Gold Coast\u2019s location near iconic beaches, its academic rhythm with the trimester system, and its emphasis on innovation and entrepreneurship, all in a playful and memorable style.",
+    "hero_gradient": "linear-gradient(123deg, hsl(343, 75%, 48%), hsl(39, 51%, 27%))",
+    "tags": [
+      "Health Sciences",
+      "Criminology",
+      "Marine Science",
+      "Campus minutes from Surfers Paradise beaches"
+    ],
+    "vibe_tags": [
+      "surf-and-study",
+      "trimester-hustle",
+      "sports-savvy",
+      "tech-innovation",
+      "beach-adjacent"
+    ],
+    "campus_mood": {
+      "study": 70,
+      "social": 85,
+      "chill": 75
+    },
+    "student_quote": "Studying here is like balancing on a surfboard\u2014there's always something happening, whether it's on the beach or with the latest tech startup. It's the perfect mix of work and play.",
+    "student_quote_author": "Zoe",
+    "student_quote_year": "2nd year Film & Screen Media",
+    "walk_score": 58,
+    "transit_score": 45,
+    "bike_score": 60,
+    "nearby_venues": [
+      {
+        "name": "Barefoot Barista",
+        "venue_type": "cafe",
+        "distance_walk_min": 5,
+        "student_review": "Walk in from the beach, sandy feet welcome. Best iced coffee on the coast.",
+        "student_reviewer": "Lily M., 1st yr Health Science",
+        "rating": 4.6,
+        "price_level": "$"
+      },
+      {
+        "name": "Burleigh Pavilion",
+        "venue_type": "bar",
+        "distance_walk_min": 12,
+        "student_review": "Sunset sessions on the rooftop -- feels like a holiday even during semester.",
+        "student_reviewer": "Finn O., 3rd yr Business",
+        "rating": 4.5,
+        "price_level": "$$"
+      },
+      {
+        "name": "The Collective Palm Beach",
+        "venue_type": "cafe",
+        "distance_walk_min": 10,
+        "student_review": "Acai bowls and good vibes. The outdoor seating is perfect for group study.",
+        "student_reviewer": "Hannah K., 2nd yr Criminology",
+        "rating": 4.4,
+        "price_level": "$$"
+      },
+      {
+        "name": "BSKT Cafe",
+        "venue_type": "cafe",
+        "distance_walk_min": 14,
+        "student_review": "Healthy eats and the smoothies are unreal. A bit pricey but worth it.",
+        "student_reviewer": "Sam D., 1st yr Film & Screen",
+        "rating": 4.3,
+        "price_level": "$$"
+      },
+      {
+        "name": "Gemelli Italian",
+        "venue_type": "restaurant",
+        "distance_walk_min": 16,
+        "student_review": "Proper Italian. We save it for end-of-semester celebrations.",
+        "student_reviewer": "Olivia C., 4th yr Marine Science",
+        "rating": 4.6,
+        "price_level": "$$$"
+      }
+    ],
+    "cafes_10min": 2,
+    "bars_10min": 0,
+    "beaches_15min": 3,
+    "day_in_life": [
+      {
+        "time": "07:00",
+        "activity": "Morning Surf",
+        "emoji": "\ud83c\udfc4\u200d\u2642\ufe0f",
+        "description": "Catch some early morning waves at Surfers Paradise Beach, just a short drive from campus. Perfect way to kickstart the day!",
+        "photo_prompt": "sunrise surfing at Surfers Paradise Beach, vibrant waves, golden light, energetic students"
+      },
+      {
+        "time": "09:00",
+        "activity": "Brekkie at G's Cafe",
+        "emoji": "\u2615",
+        "description": "Grab an avo toast and flat white at G's Cafe on campus. It's a student favourite and a great spot to meet up with friends.",
+        "photo_prompt": "students enjoying breakfast at G's Cafe, avocado toast, coffee cups, friendly atmosphere, campus vibes"
+      },
+      {
+        "time": "11:00",
+        "activity": "Marine Lab Session",
+        "emoji": "\ud83d\udc20",
+        "description": "Dive into a hands-on marine science lab at Griffith\u2019s Advanced Design and Prototyping Technologies Institute. Investigate local marine life and ecosystems.",
+        "photo_prompt": "students in a marine science lab, examining aquatic specimens, modern equipment, focused learning"
+      },
+      {
+        "time": "14:00",
+        "activity": "Study Jam in Library",
+        "emoji": "\ud83d\udcda",
+        "description": "Hit up the Nathan campus library for a study sesh. The quiet floors are perfect for cramming or group projects.",
+        "photo_prompt": "students studying in Griffith University library, books, laptops, collaborative atmosphere, modern interior"
+      },
+      {
+        "time": "16:00",
+        "activity": "Gym Session",
+        "emoji": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f",
+        "description": "Squeeze in a workout at the uni\u2019s fitness centre. It\u2019s got top-notch equipment, perfect for blowing off steam between classes.",
+        "photo_prompt": "students working out at Griffith University gym, fitness equipment, energetic mood, diverse students"
+      },
+      {
+        "time": "18:00",
+        "activity": "Dinner at Market Square",
+        "emoji": "\ud83c\udf5c",
+        "description": "Head to Market Square in Varsity Lakes for some Asian street food. It's a popular spot for students to unwind and fuel up.",
+        "photo_prompt": "students dining at Market Square, vibrant food stalls, diverse dishes, lively evening atmosphere"
+      },
+      {
+        "time": "20:00",
+        "activity": "Beach Walk at Sunset",
+        "emoji": "\ud83c\udf05",
+        "description": "Stroll down Burleigh Heads Beach, enjoying the stunning sunset views. It's a relaxing way to end a busy uni day.",
+        "photo_prompt": "students walking on Burleigh Heads Beach at sunset, colourful sky, peaceful ocean, serene students"
+      }
+    ],
+    "clubs": [
+      "Griffith Surf Club",
+      "Gold Coast Film Society",
+      "Health Sciences Students Association",
+      "Griffith Business Society",
+      "Griffith Adventure Club"
+    ],
+    "transport": {
+      "tram_to_surfers": "15 min",
+      "airport": "25 min drive",
+      "nearest_beach": "Burleigh Heads -- 10 min drive",
+      "bus_to_campus": "G:link tram stop on campus"
+    },
+    "safety_support": [
+      "24/7 campus security",
+      "SafeZone app for emergencies",
+      "Free counselling services",
+      "After-hours study space escorts"
+    ],
+    "cost": {
+      "tuition_range_low": 7500,
+      "tuition_range_high": 12000,
+      "tuition_comparison": "Below average -- competitive Gold Coast rates",
+      "rent_range_low": 200,
+      "rent_range_high": 420,
+      "rent_comparison": "Mid-range -- cheaper inland, pricier beachside",
+      "weekly_budget": {
+        "rent": 230,
+        "food": 80,
+        "transport": 35,
+        "fun": 50,
+        "total": 395
+      },
+      "total_weekly": 395
+    },
+    "scholarships": [
+      {
+        "name": "Griffith Award for Academic Excellence",
+        "amount": "$5,000/yr",
+        "eligibility": "ATAR 91+"
+      },
+      {
+        "name": "Griffith Remarkable Scholarship",
+        "amount": "$10,000/yr",
+        "eligibility": "ATAR 99+"
+      }
+    ],
+    "top_courses": [
+      "Health Sciences",
+      "Criminology",
+      "Marine Science",
+      "Business & Aviation",
+      "Film & Screen Media"
+    ],
+    "vibe_location": "beach",
+    "vibe_energy": "creating",
+    "vibe_weekend": "bushwalk"
+  },
+  {
+    "id": "uq-brisbane",
+    "name": "University of Queensland",
+    "city": "Brisbane",
+    "state": "QLD",
+    "latitude": -27.4975,
+    "longitude": 153.0137,
+    "institution_type": "University",
+    "student_count": 55000,
+    "tagline": "Sandstone spirit, riverside innovation, explore more",
+    "tagline_reasoning": "This tagline captures UQ's historic campus vibe, scenic riverside location, and its reputation for cutting-edge research and diverse opportunities, appealing to adventurous students.",
+    "hero_gradient": "linear-gradient(178deg, hsl(85, 78%, 43%), hsl(154, 50%, 39%))",
+    "tags": [
+      "Engineering",
+      "Biomedical Science",
+      "Law",
+      "Sandstone Great Court heritage campus"
+    ],
+    "vibe_tags": [
+      "sandstone-vibes",
+      "riverside-chill",
+      "research-heavy",
+      "club-haven",
+      "vaccine-pioneers"
+    ],
+    "campus_mood": {
+      "study": 85,
+      "social": 78,
+      "chill": 70
+    },
+    "student_quote": "Walking through the Great Court feels like stepping into a historical movie set, but the real action is all the late-night brainstorming sessions at the lakeside. UQ is where you'll find your tribe, no matter your passion.",
+    "student_quote_author": "Alex",
+    "student_quote_year": "2nd year Biomedical Science",
+    "walk_score": 72,
+    "transit_score": 65,
+    "bike_score": 75,
+    "nearby_venues": [
+      {
+        "name": "Merlo Coffee (UQ Lakes)",
+        "venue_type": "cafe",
+        "distance_walk_min": 2,
+        "student_review": "On-campus perfection. Grab a long black and sit by the lakes between lectures.",
+        "student_reviewer": "Alex N., 2nd yr Engineering",
+        "rating": 4.5,
+        "price_level": "$"
+      },
+      {
+        "name": "Cafe Sari",
+        "venue_type": "restaurant",
+        "distance_walk_min": 5,
+        "student_review": "Malaysian laksa that tastes like home. Massive serves for under fifteen bucks.",
+        "student_reviewer": "Wei L., 3rd yr Comp Sci",
+        "rating": 4.4,
+        "price_level": "$"
+      },
+      {
+        "name": "The Plough Inn",
+        "venue_type": "bar",
+        "distance_walk_min": 8,
+        "student_review": "Historic pub right on the river. Trivia nights are legendary.",
+        "student_reviewer": "Bella F., 1st yr Law",
+        "rating": 4.3,
+        "price_level": "$$"
+      },
+      {
+        "name": "Grill'd St Lucia",
+        "venue_type": "restaurant",
+        "distance_walk_min": 7,
+        "student_review": "Reliable burgers when you need comfort food during assignment season.",
+        "student_reviewer": "Marcus J., 2nd yr Biomed",
+        "rating": 4.1,
+        "price_level": "$$"
+      },
+      {
+        "name": "Cheeky Poke Bar",
+        "venue_type": "restaurant",
+        "distance_walk_min": 4,
+        "student_review": "Fresh poke bowls and quick service -- perfect lunch between tutorials.",
+        "student_reviewer": "Sophie T., 3rd yr Env Science",
+        "rating": 4.2,
+        "price_level": "$$"
+      }
+    ],
+    "cafes_10min": 1,
+    "bars_10min": 1,
+    "beaches_15min": null,
+    "day_in_life": [
+      {
+        "time": "07:00",
+        "activity": "Morning Kayak on Brisbane River",
+        "emoji": "\ud83d\udea3",
+        "description": "Start the day paddling on the Brisbane River with the UQ Kayak Club, enjoying stunning views of the St Lucia campus.",
+        "photo_prompt": "Students kayaking at sunrise, Brisbane River, lush greenery, St Lucia campus in background, vibrant sky"
+      },
+      {
+        "time": "09:00",
+        "activity": "Coffee at Merlo",
+        "emoji": "\u2615",
+        "description": "Grab a flat white from Merlo Coffee inside the Duhig Building to kickstart your brain for the day ahead.",
+        "photo_prompt": "Barista pouring a flat white at Merlo Coffee, cozy cafe atmosphere, students chatting, books on tables"
+      },
+      {
+        "time": "11:00",
+        "activity": "Lecture in Advanced Engineering",
+        "emoji": "\ud83d\udcda",
+        "description": "Engage in an interactive lecture at the state-of-the-art GCI building, learning about renewable energy systems.",
+        "photo_prompt": "UQ GCI building, students in lecture hall, professor explaining, renewable energy diagrams on screen"
+      },
+      {
+        "time": "13:00",
+        "activity": "Lunch at St. Lucia Village",
+        "emoji": "\ud83e\udd57",
+        "description": "Enjoy a healthy poke bowl from Playa Bowls at the St. Lucia Village, a popular hangout spot for UQ students.",
+        "photo_prompt": "Colourful poke bowl, fresh ingredients, students sitting outside Playa Bowls, vibrant atmosphere"
+      },
+      {
+        "time": "15:00",
+        "activity": "Study Session in Great Court",
+        "emoji": "\ud83d\udcd6",
+        "description": "Find a spot under the shade of the Great Court's iconic sandstone arches to review notes for upcoming exams.",
+        "photo_prompt": "UQ Great Court, students studying under sandstone arches, green lawns, sunlit scene"
+      },
+      {
+        "time": "18:00",
+        "activity": "Society Meetup at UQ Lakes",
+        "emoji": "\ud83c\udf05",
+        "description": "Join the Environmental Management Society for a chill catch-up and some wildlife spotting around UQ Lakes.",
+        "photo_prompt": "UQ Lakes at sunset, students gathered, wildlife in view, relaxed and social atmosphere"
+      },
+      {
+        "time": "20:00",
+        "activity": "Dinner at The Regatta",
+        "emoji": "\ud83c\udf7d\ufe0f",
+        "description": "Catch the CityCat to The Regatta Hotel for a classic Aussie pub dinner with mates overlooking the river.",
+        "photo_prompt": "The Regatta Hotel, lively dinner scene, friends laughing, Brisbane River view, warm lighting"
+      }
+    ],
+    "clubs": [
+      "UQ Union",
+      "UQ Debating Society",
+      "Engineering Undergrad Society",
+      "UQ Rotaract",
+      "St Lucia Running Club"
+    ],
+    "transport": {
+      "bus_to_cbd": "20 min (412/411)",
+      "citycat_ferry": "25 min to South Bank",
+      "airport": "35 min drive",
+      "bike_path": "Bicentennial Bikeway to CBD"
+    },
+    "safety_support": [
+      "24/7 campus security",
+      "SafeZone app for emergencies",
+      "Free counselling services",
+      "After-hours study space escorts"
+    ],
+    "cost": {
+      "tuition_range_low": 8000,
+      "tuition_range_high": 14000,
+      "tuition_comparison": "Around average for Australian unis",
+      "rent_range_low": 220,
+      "rent_range_high": 450,
+      "rent_comparison": "Above average -- inner Brisbane suburb",
+      "weekly_budget": {
+        "rent": 250,
+        "food": 85,
+        "transport": 30,
+        "fun": 55,
+        "total": 420
+      },
+      "total_weekly": 420
+    },
+    "scholarships": [
+      {
+        "name": "UQ Vice-Chancellor's Scholarship",
+        "amount": "$12,000/yr",
+        "eligibility": "ATAR 99.9+"
+      },
+      {
+        "name": "UQ Merit Scholarship",
+        "amount": "$6,000/yr",
+        "eligibility": "ATAR 96+"
+      }
+    ],
+    "top_courses": [
+      "Engineering",
+      "Biomedical Science",
+      "Law",
+      "Environmental Management",
+      "Computer Science"
+    ],
+    "vibe_location": "campus",
+    "vibe_energy": "discovering",
+    "vibe_weekend": "markets"
+  },
+  {
+    "id": "unsw-sydney",
+    "name": "UNSW Sydney",
+    "city": "Sydney",
+    "state": "NSW",
+    "latitude": -33.9173,
+    "longitude": 151.2313,
+    "institution_type": "University",
+    "student_count": 63000,
+    "tagline": "Code, create, conquer by the coast.",
+    "tagline_reasoning": "This tagline encapsulates UNSW Sydney's strong emphasis on engineering and innovation (code, create), while highlighting its vibrant coastal location and ambitious student environment (conquer by the coast).",
+    "hero_gradient": "linear-gradient(174deg, hsl(272, 58%, 53%), hsl(324, 77%, 43%))",
+    "tags": [
+      "Engineering",
+      "Computer Science & AI",
+      "Commerce & Finance",
+      "Located in Kensington, close to Sydney CBD and beaches"
+    ],
+    "vibe_tags": [
+      "urban-buzz",
+      "engineering-powerhouse",
+      "multicultural-mix",
+      "industry-ties",
+      "beach-proximity"
+    ],
+    "campus_mood": {
+      "study": 85,
+      "social": 78,
+      "chill": 70
+    },
+    "student_quote": "UNSW is like a melting pot of cultures and ideas, with so many opportunities to connect with industry right at our doorstep. Plus, being just a quick bus ride from the beach is a total game-changer.",
+    "student_quote_author": "Emily",
+    "student_quote_year": "2nd year Computer Science",
+    "walk_score": 80,
+    "transit_score": 85,
+    "bike_score": 70,
+    "nearby_venues": [
+      {
+        "name": "Taste of Shanghai Kingsford",
+        "venue_type": "restaurant",
+        "distance_walk_min": 6,
+        "student_review": "Best xiao long bao near campus. Always packed at lunch -- worth the wait.",
+        "student_reviewer": "David Z., 2nd yr Commerce",
+        "rating": 4.5,
+        "price_level": "$$"
+      },
+      {
+        "name": "Mamak",
+        "venue_type": "restaurant",
+        "distance_walk_min": 20,
+        "student_review": "Roti canai at midnight after a library session. Sydney institution.",
+        "student_reviewer": "Aisha R., 3rd yr Architecture",
+        "rating": 4.4,
+        "price_level": "$"
+      },
+      {
+        "name": "Three Blue Ducks Rosebery",
+        "venue_type": "cafe",
+        "distance_walk_min": 18,
+        "student_review": "Fancy brunch spot for when parents visit. The corn fritters are elite.",
+        "student_reviewer": "Liam B., 1st yr Design",
+        "rating": 4.6,
+        "price_level": "$$$"
+      },
+      {
+        "name": "The Doncaster",
+        "venue_type": "bar",
+        "distance_walk_min": 5,
+        "student_review": "The local pub. Cheap jugs on Thursdays and pool tables. Classic uni bar.",
+        "student_reviewer": "Emma G., 4th yr Eng",
+        "rating": 4.0,
+        "price_level": "$"
+      },
+      {
+        "name": "Little L Thai",
+        "venue_type": "restaurant",
+        "distance_walk_min": 7,
+        "student_review": "Ten-dollar pad see ew that actually fills you up. Student essential.",
+        "student_reviewer": "Chris M., 2nd yr Comp Sci",
+        "rating": 4.3,
+        "price_level": "$"
+      }
+    ],
+    "cafes_10min": 0,
+    "bars_10min": 1,
+    "beaches_15min": 2,
+    "day_in_life": [
+      {
+        "time": "07:00",
+        "activity": "Morning surf at Bondi",
+        "emoji": "\ud83c\udf0a",
+        "description": "Catch some waves at Bondi Beach before classes. It's an energising way to start the day and popular among students.",
+        "photo_prompt": "student surfing at sunrise, Bondi Beach waves, golden sunlight, surfers in background, vibrant ocean"
+      },
+      {
+        "time": "09:00",
+        "activity": "Coffee at Penny Lane",
+        "emoji": "\u2615",
+        "description": "Grab a flat white at Penny Lane on campus. It's the go-to spot for a quick caffeine fix before lectures.",
+        "photo_prompt": "students at Penny Lane cafe, holding coffee cups, UNSW campus, modern interior, morning sunlight through windows"
+      },
+      {
+        "time": "11:00",
+        "activity": "Lecture in Clancy Auditorium",
+        "emoji": "\ud83d\udcda",
+        "description": "Head to Clancy Auditorium for a stimulating guest lecture in AI. It's an opportunity to learn from industry leaders.",
+        "photo_prompt": "students in Clancy Auditorium, listening to lecturer, dynamic presentation slide, attentive audience"
+      },
+      {
+        "time": "13:00",
+        "activity": "Lunch at The White House",
+        "emoji": "\ud83c\udf54",
+        "description": "Chill out with friends over burgers and chips at The White House. It's the best spot for a hearty lunch on campus.",
+        "photo_prompt": "students eating at The White House, casual setting, burgers and fries, outdoor seating, laughter"
+      },
+      {
+        "time": "15:00",
+        "activity": "Study at The Library",
+        "emoji": "\ud83d\udcd6",
+        "description": "Hit up UNSW Library for some quiet study. The views from the upper floors are perfect for a productive afternoon.",
+        "photo_prompt": "students studying in UNSW Library, books and laptops, panoramic window view, focused atmosphere"
+      },
+      {
+        "time": "18:00",
+        "activity": "Jog in Centennial Park",
+        "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f",
+        "description": "Unwind with a jog around Centennial Park. The lush greenery and open spaces offer a refreshing escape from studies.",
+        "photo_prompt": "student jogging in Centennial Park, sunset hues, tree-lined pathways, serene natural setting"
+      },
+      {
+        "time": "20:00",
+        "activity": "Dinner in Newtown",
+        "emoji": "\ud83c\udf5c",
+        "description": "Venture to Newtown for some tasty Thai food with mates. King Street is buzzing with life and flavours from all over.",
+        "photo_prompt": "students dining in Newtown, vibrant street atmosphere, Thai restaurant, bustling evening, diverse crowd"
+      }
+    ],
+    "clubs": [
+      "UNSW Engineering Society",
+      "Arc @ UNSW",
+      "CSESoc (Computer Science & Engineering)",
+      "UNSW Debate Society",
+      "Queer Students Collective"
+    ],
+    "transport": {
+      "bus_to_cbd": "25 min (891/893)",
+      "light_rail": "Kingsford stop -- 5 min walk",
+      "airport": "20 min drive",
+      "nearest_beach": "Coogee -- 15 min bus"
+    },
+    "safety_support": [
+      "24/7 campus security",
+      "SafeZone app for emergencies",
+      "Free counselling services",
+      "After-hours study space escorts"
+    ],
+    "cost": {
+      "tuition_range_low": 8500,
+      "tuition_range_high": 15000,
+      "tuition_comparison": "Above average -- premium Go8 research uni",
+      "rent_range_low": 280,
+      "rent_range_high": 600,
+      "rent_comparison": "Most expensive -- Sydney eastern suburbs",
+      "weekly_budget": {
+        "rent": 310,
+        "food": 90,
+        "transport": 40,
+        "fun": 60,
+        "total": 500
+      },
+      "total_weekly": 500
+    },
+    "scholarships": [
+      {
+        "name": "UNSW Scientia Scholarship",
+        "amount": "$20,000/yr",
+        "eligibility": "ATAR 98+ and leadership"
+      },
+      {
+        "name": "UNSW Academic Achievement Award",
+        "amount": "$5,000",
+        "eligibility": "ATAR 96+"
+      }
+    ],
+    "top_courses": [
+      "Engineering",
+      "Computer Science & AI",
+      "Commerce & Finance",
+      "Law",
+      "Design & Architecture"
+    ],
+    "vibe_location": "city",
+    "vibe_energy": "building",
+    "vibe_weekend": "live_music"
+  },
+  {
+    "id": "unimelb",
+    "name": "University of Melbourne",
+    "city": "Melbourne",
+    "state": "VIC",
+    "latitude": -37.7963,
+    "longitude": 144.9614,
+    "institution_type": "University",
+    "student_count": 65000,
+    "tagline": "Brains meet baristas in Melbourne's cultural heart.",
+    "tagline_reasoning": "This tagline highlights the university's top-notch academic reputation alongside Melbourne's vibrant, coffee-loving cultural scene, creating a blend of intellect and lifestyle that's uniquely Melbourne.",
+    "hero_gradient": "linear-gradient(125deg, hsl(165, 58%, 48%), hsl(214, 84%, 35%))",
+    "tags": [
+      "Medicine",
+      "Arts & Humanities",
+      "Law",
+      "Australia's #1 ranked university (multiple rankings)"
+    ],
+    "vibe_tags": [
+      "heritage-quad",
+      "laneway-culture",
+      "foodie-paradise",
+      "research-heavy",
+      "melbourne-model"
+    ],
+    "campus_mood": {
+      "study": 85,
+      "social": 78,
+      "chill": 60
+    },
+    "student_quote": "Studying here is like being at the heart of Melbourne's culture, with a mix of intense academia and a vibrant social scene. I love grabbing a coffee in a laneway before diving into research.",
+    "student_quote_author": "Ava",
+    "student_quote_year": "2nd year Arts & Humanities",
+    "walk_score": 95,
+    "transit_score": 92,
+    "bike_score": 90,
+    "nearby_venues": [
+      {
+        "name": "Lune Croissanterie",
+        "venue_type": "cafe",
+        "distance_walk_min": 15,
+        "student_review": "The best croissant in Australia, no debate. Treat yourself after exams.",
+        "student_reviewer": "Zara P., 3rd yr Arts",
+        "rating": 4.8,
+        "price_level": "$$$"
+      },
+      {
+        "name": "Heartattack and Vine",
+        "venue_type": "bar",
+        "distance_walk_min": 8,
+        "student_review": "Wine bar with student-friendly prices. Cosy vibes and a great cheese board.",
+        "student_reviewer": "Oscar W., 2nd yr Science",
+        "rating": 4.4,
+        "price_level": "$$"
+      },
+      {
+        "name": "Pellegrini's Espresso Bar",
+        "venue_type": "cafe",
+        "distance_walk_min": 18,
+        "student_review": "Old-school Italian espresso since 1954. A Melbourne rite of passage.",
+        "student_reviewer": "Nina V., 1st yr Commerce",
+        "rating": 4.5,
+        "price_level": "$"
+      },
+      {
+        "name": "The Rose",
+        "venue_type": "bar",
+        "distance_walk_min": 6,
+        "student_review": "Fitzroy pub crawl starts here. Good pub meals and a massive beer garden.",
+        "student_reviewer": "Jack H., 4th yr Law",
+        "rating": 4.2,
+        "price_level": "$$"
+      },
+      {
+        "name": "Grub Food Van",
+        "venue_type": "restaurant",
+        "distance_walk_min": 10,
+        "student_review": "Brunch in a laneway garden. The shakshuka is legendary among students.",
+        "student_reviewer": "Tara L., 2nd yr Medicine",
+        "rating": 4.4,
+        "price_level": "$$"
+      }
+    ],
+    "cafes_10min": 0,
+    "bars_10min": 2,
+    "beaches_15min": null,
+    "day_in_life": [
+      {
+        "time": "07:00",
+        "activity": "Morning jog at Princes Park",
+        "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f",
+        "description": "Start the day with a refreshing jog around Princes Park, just a stone's throw from campus. Breathe in the crisp morning air.",
+        "photo_prompt": "A student jogging at sunrise through Princes Park, surrounded by green trees and morning mist"
+      },
+      {
+        "time": "09:00",
+        "activity": "Grab brekkie at Seven Seeds",
+        "emoji": "\u2615",
+        "description": "Fuel up with a flat white and avo toast at Seven Seeds, a popular student caf\u00e9 tucked away in Carlton.",
+        "photo_prompt": "A bustling caf\u00e9 interior, with students sipping coffee and eating breakfast, sunlight streaming through large windows"
+      },
+      {
+        "time": "11:00",
+        "activity": "Lecture at Old Arts Building",
+        "emoji": "\ud83d\udcda",
+        "description": "Head to a thought-provoking Arts lecture in the historic Old Arts Building, a true testament to the university's rich history.",
+        "photo_prompt": "A historic university lecture hall, filled with attentive students and an engaging lecturer"
+      },
+      {
+        "time": "13:00",
+        "activity": "Lunch at Union House",
+        "emoji": "\ud83c\udf5c",
+        "description": "Enjoy a variety of lunch options at Union House. Today, it's all about the dumplings from the food court.",
+        "photo_prompt": "A lively food court in Union House, students chatting and eating diverse meals at communal tables"
+      },
+      {
+        "time": "15:00",
+        "activity": "Study session in the Baillieu Library",
+        "emoji": "\ud83d\udcd6",
+        "description": "Crack down on some assignments at the Baillieu Library, surrounded by an inspiring collection of books and resources.",
+        "photo_prompt": "A student studying intently in a library, books and laptops on the table, shelves filled with books in the background"
+      },
+      {
+        "time": "18:00",
+        "activity": "Catch the tram to St Kilda",
+        "emoji": "\ud83d\ude8b",
+        "description": "Hop on the iconic Melbourne tram for a quick ride to St Kilda Beach. Perfect way to unwind after a busy day.",
+        "photo_prompt": "A colourful Melbourne tram traveling through the city, with students inside enjoying the ride and cityscapes"
+      },
+      {
+        "time": "20:00",
+        "activity": "Dinner at Lentil As Anything",
+        "emoji": "\ud83c\udf7d\ufe0f",
+        "description": "Enjoy a pay-as-you-feel dinner at Lentil As Anything in Abbotsford. Great food for a great cause with friends.",
+        "photo_prompt": "A warm, inviting restaurant with communal tables, diverse dishes being served, and happy diners sharing meals"
+      }
+    ],
+    "clubs": [
+      "Melbourne University Law Students' Society",
+      "UMSU (Student Union)",
+      "Melbourne Uni Mountaineering Club",
+      "Science Students' Society",
+      "Melbourne Uni Film Society"
+    ],
+    "transport": {
+      "tram_to_cbd": "10 min (tram 1, 6, 16)",
+      "train": "Melbourne Central -- 15 min walk",
+      "airport": "SkyBus from Southern Cross -- 30 min",
+      "bike": "Capital City Trail access"
+    },
+    "safety_support": [
+      "24/7 campus security",
+      "SafeZone app for emergencies",
+      "Free counselling services",
+      "After-hours study space escorts"
+    ],
+    "cost": {
+      "tuition_range_low": 8800,
+      "tuition_range_high": 15500,
+      "tuition_comparison": "Highest -- premium Go8, offset by Melbourne Model breadth",
+      "rent_range_low": 250,
+      "rent_range_high": 550,
+      "rent_comparison": "High -- inner Melbourne, offset by no car needed",
+      "weekly_budget": {
+        "rent": 280,
+        "food": 85,
+        "transport": 25,
+        "fun": 55,
+        "total": 445
+      },
+      "total_weekly": 445
+    },
+    "scholarships": [
+      {
+        "name": "Melbourne Chancellor's Scholarship",
+        "amount": "$15,000/yr",
+        "eligibility": "ATAR 99.90+"
+      },
+      {
+        "name": "Melbourne Access Scholarship",
+        "amount": "$10,000/yr",
+        "eligibility": "Equity criteria"
+      }
+    ],
+    "top_courses": [
+      "Medicine",
+      "Arts & Humanities",
+      "Law",
+      "Science",
+      "Commerce"
+    ],
+    "vibe_location": "city",
+    "vibe_energy": "creating",
+    "vibe_weekend": "live_music"
+  }
+]

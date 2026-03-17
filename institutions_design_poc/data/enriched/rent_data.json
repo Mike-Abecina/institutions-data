@@ -1,0 +1,52 @@
+{
+  "jcu-townsville": {
+    "institution_id": "jcu-townsville",
+    "name": "James Cook University",
+    "one_bedroom_low": 200,
+    "one_bedroom_high": 280,
+    "share_house_low": 140,
+    "share_house_high": 180,
+    "suburb": "Douglas / Townsville City",
+    "rent_comparison": "Cheapest of the five -- regional advantage"
+  },
+  "griffith-gold-coast": {
+    "institution_id": "griffith-gold-coast",
+    "name": "Griffith University Gold Coast",
+    "one_bedroom_low": 320,
+    "one_bedroom_high": 420,
+    "share_house_low": 200,
+    "share_house_high": 260,
+    "suburb": "Southport / Robina",
+    "rent_comparison": "Mid-range -- cheaper inland, pricier beachside"
+  },
+  "uq-brisbane": {
+    "institution_id": "uq-brisbane",
+    "name": "University of Queensland",
+    "one_bedroom_low": 350,
+    "one_bedroom_high": 450,
+    "share_house_low": 220,
+    "share_house_high": 280,
+    "suburb": "St Lucia / Toowong / Indooroopilly",
+    "rent_comparison": "Above average -- inner Brisbane suburb"
+  },
+  "unsw-sydney": {
+    "institution_id": "unsw-sydney",
+    "name": "UNSW Sydney",
+    "one_bedroom_low": 450,
+    "one_bedroom_high": 600,
+    "share_house_low": 280,
+    "share_house_high": 350,
+    "suburb": "Kensington / Kingsford / Randwick",
+    "rent_comparison": "Most expensive -- Sydney eastern suburbs"
+  },
+  "unimelb": {
+    "institution_id": "unimelb",
+    "name": "University of Melbourne",
+    "one_bedroom_low": 400,
+    "one_bedroom_high": 550,
+    "share_house_low": 250,
+    "share_house_high": 320,
+    "suburb": "Parkville / Carlton / North Melbourne",
+    "rent_comparison": "High -- inner Melbourne, offset by no car needed"
+  }
+}

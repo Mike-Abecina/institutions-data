@@ -1,0 +1,11 @@
+# Production requirements for streamlit_app_v2.py
+# Pipeline-only deps (geopandas, shapely, pyproj, fiona, numpy) are excluded —
+# they're not imported by the app and would slow Streamlit Cloud builds.
+# See requirements-pipeline.txt for the full pipeline environment.
+
+streamlit>=1.32.0
+pandas>=2.0.0
+openai>=1.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+mysql-connector-python>=8.0.0

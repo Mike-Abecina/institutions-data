@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-16T16:14:28.281021",
+    "source": "ACIR Database",
+    "methodology": "INSTITUTION_RANKING_DATA_FINDINGS.md",
+    "data_limitations": {
+      "universities": "MBA (salary/employment) and HE enrollment data unavailable. Using star ratings only.",
+      "rtos": "No quality metrics available. RTOs not ranked.",
+      "schools": "Comprehensive data available. VIC has ATAR, all states have NAPLAN and pathways."
+    }
+  },
+  "by_state_universities": {},
+  "by_state_schools": {
+    "ACT": [
+      {
+        "rank": 1,
+        "organisation_id": 74254,
+        "name": "Northern College of the Arts and Technology",
+        "composite_score": 0.468,
+        "metrics": {
+          "median_atar": null,
+          "pct_to_university": 16.0,
+          "vce_completion_rate": 39.2,
+          "naplan_composite": 464.1
+        }
+      },
+      {
+        "rank": 2,
+        "organisation_id": 74254,
+        "name": "Northern College of the Arts and Technology",
+        "composite_score": 0.468,
+        "metrics": {
+          "median_atar": null,
+          "pct_to_university": 16.0,
+          "vce_completion_rate": 43.6,
+          "naplan_composite": 464.1
+        }
+      },
+      {
+        "rank": 3,
+        "organisation_id": 74254,
+        "name": "Northern College of the Arts and Technology",
+        "composite_score": 0.468,
+        "metrics": {
+          "median_atar": null,
+          "pct_to_university": 16.0,
+          "vce_completion_rate": 32.5,
+          "naplan_composite": 464.1
+        }
+      },
+      {
+        "rank": 4,
+        "organisation_id": 74254,
+        "name": "Northern College of the Arts and Technology",
+        "composite_score": 0.468,
+        "metrics": {
+          "median_atar": null,
+          "pct_to_university": 16.0,
+          "vce_completion_rate": 36.0,
+          "naplan_composite": 464.1
+        }
+      },
+      {
+        "rank": 5,
+        "organisation_id": 74254,
+        "name": "Northern College of the Arts and Technology",
+        "composite_score": 0.468,
+        "metrics": {
+          "median_atar": null,
+          "pct_to_university": 16.0,
+          "vce_completion_rate": 34.3,
+          "naplan_composite": 464.1
+        }
+      },
+      {
+        "rank": 6,
+        "organisation_id": 74254,
+        "name": "Northern College of the Arts and Technology",
+        "composite_score": 0.468,
+        "metrics": {
+          "median_atar": null,
+          "pct_to_university": 16.0,
+          "vce_completion_rate": 37.9,
+          "naplan_composite": 464.1
+        }
+      },
+      {
+        "rank": 7,
+        "organisation_id": 74254,
+        "name": "Northern College of the Arts and Technology",
+        "composite_score": 0.468,
+        "metrics": {
+          "median_atar": null,
+          "pct_to_university": 16.0,
+          "vce_completion_rate": 42.2,
+          "naplan_composite": 464.1
+        }
+      },
+      {
+        "rank": 8,
+        "organisation_id": 74254,
+        "name": "Northern College of the Arts and Technology",
+        "composite_score": 0.468,
+        "metrics": {
+          "median_atar": null,
+          "pct_to_university": 16.0,
+          "vce_completion_rate": 43.0,
+          "naplan_composite": 464.1
+        }
+      },
+      {
+        "rank": 9,
+        "organisation_id": 74254,
+        "name": "Northern College of the Arts and Technology",
+        "composite_score": 0.468,
+        "metrics": {
+          "median_atar": null,
+          "pct_to_university": 16.0,
+          "vce_completion_rate": 33.9,
+          "naplan_composite": 464.1
+        }
+      },
+      {
+        "rank": 10,
+        "organisation_id": 74254,
+        "name": "Northern College of the Arts and Technology",
+        "composite_score": 0.338,
+        "metrics": {
+          "median_atar": null,
+          "pct_to_university": 12.0,
+          "vce_completion_rate": 43.6,
+          "naplan_composite": 464.1
+        }
+      },
+      {
+        "rank": 11,
+        "organisation_id": 74254,
+        "name": "Northern College of the Arts and Technology",
+        "composite_score": 0.338,
+        "metrics": {
+          "median_atar": null,
+          "pct_to_university": 12.0,
+          "vce_completion_rate": 33.9,
+          "naplan_composite": 464.1
+        }
+      },
+      {
+        "rank": 12,
+        "organisation_id": 74254,
+        "name": "Northern College of the Arts and Technology",
+        "composite_score": 0.338,
+        "metrics": {
+          "median_atar": null,
+          "pct_to_university": 12.0,
+          "vce_completion_rate": 32.5,
+          "naplan_composite": 464.1
+        }
+      },
+      {
+        "rank": 13,
+        "organisation_id": 74254,
+        "name": "Northern College of the Arts and Technology",
+        "composite_score": 0.338,
+        "metrics": {
+          "median_atar": null,
+          "pct_to_university": 12.0,
+          "vce_completion_rate": 36.0,
+          "naplan_composite": 464.1
+        }
+      },
+      {
+        "rank": 14,
+        "organisation_id": 74254,
+        "name": "Northern College of the Arts and Technology",
+        "composite_score": 0.338,
+        "metrics": {
+          "median_atar": null,
+          "pct_to_university": 12.0,
+          "vce_completion_rate": 34.3,
+          "naplan_composite": 464.1
+        }
+      },
+      {
+        "rank": 15,
+        "organisation_id": 74254,
+        "name": "Northern College of the Arts and Technology",
+        "composite_score": 0.338,
+        "metrics": {
+          "median_atar": null,
+          "pct_to_university": 12.0,
+          "vce_completion_rate": 37.9,
+          "naplan_composite": 464.1
+        }
+      },
+      {
+        "rank": 16,
+        "organisation_id": 74254,
+        "name": "Northern College of the Arts and Technology",
+        "composite_score": 0.338,
+        "metrics": {
+          "median_atar": null,
+          "pct_to_university": 12.0,
+          "vce_completion_rate": 42.2,
+          "naplan_composite": 464.1
+        }
+      },
+      {
+        "rank": 17,
+        "organisation_id": 74254,
+        "name": "Northern College of the Arts and Technology",
+        "composite_score": 0.338,
+        "metrics": {
+          "median_atar": null,
+          "pct_to_university": 12.0,
+          "vce_completion_rate": 43.0,
+          "naplan_composite": 464.1
+        }
+      },
+      {
+        "rank": 18,
+        "organisation_id": 74254,
+        "name": "Northern College of the Arts and Technology",
+        "composite_score": 0.338,
+        "metrics": {
+          "median_atar": null,
+          "pct_to_university": 12.0,
+          "vce_completion_rate": 39.2,
+          "naplan_composite": 464.1
+        }
+      }
+    ]
+  },
+  "national_universities": []
+}

@@ -1,0 +1,47 @@
+{
+  "jcu-townsville": {
+    "institution_id": "jcu-townsville",
+    "name": "James Cook University",
+    "latitude": -19.3299,
+    "longitude": 146.7578,
+    "walk_score": 45,
+    "transit_score": 25,
+    "bike_score": 55
+  },
+  "griffith-gold-coast": {
+    "institution_id": "griffith-gold-coast",
+    "name": "Griffith University Gold Coast",
+    "latitude": -27.9621,
+    "longitude": 153.3822,
+    "walk_score": 58,
+    "transit_score": 45,
+    "bike_score": 60
+  },
+  "uq-brisbane": {
+    "institution_id": "uq-brisbane",
+    "name": "University of Queensland",
+    "latitude": -27.4975,
+    "longitude": 153.0137,
+    "walk_score": 72,
+    "transit_score": 65,
+    "bike_score": 75
+  },
+  "unsw-sydney": {
+    "institution_id": "unsw-sydney",
+    "name": "UNSW Sydney",
+    "latitude": -33.9173,
+    "longitude": 151.2313,
+    "walk_score": 80,
+    "transit_score": 85,
+    "bike_score": 70
+  },
+  "unimelb": {
+    "institution_id": "unimelb",
+    "name": "University of Melbourne",
+    "latitude": -37.7963,
+    "longitude": 144.9614,
+    "walk_score": 95,
+    "transit_score": 92,
+    "bike_score": 90
+  }
+}

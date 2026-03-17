@@ -1,0 +1,11 @@
+# Pipeline / data-science environment (local only, not used by Streamlit Cloud)
+# Install with: pip install -r requirements-pipeline.txt
+
+pandas>=2.0.0
+numpy
+mysql-connector-python>=8.0.0
+python-dotenv>=1.0.0
+geopandas
+shapely
+pyproj
+fiona

@@ -1,0 +1,92 @@
+{
+  "jcu-townsville": {
+    "institution_id": "jcu-townsville",
+    "name": "James Cook University",
+    "tuition_range_low": 7200,
+    "tuition_range_high": 11800,
+    "tuition_comparison": "Lowest of the five -- regional pricing advantage",
+    "rent_range_low": 140,
+    "rent_range_high": 280,
+    "rent_comparison": "Cheapest of the five -- regional advantage",
+    "weekly_budget": {
+      "rent": 160,
+      "food": 70,
+      "transport": 30,
+      "fun": 40,
+      "total": 300
+    },
+    "total_weekly": 300
+  },
+  "griffith-gold-coast": {
+    "institution_id": "griffith-gold-coast",
+    "name": "Griffith University Gold Coast",
+    "tuition_range_low": 7500,
+    "tuition_range_high": 12000,
+    "tuition_comparison": "Below average -- competitive Gold Coast rates",
+    "rent_range_low": 200,
+    "rent_range_high": 420,
+    "rent_comparison": "Mid-range -- cheaper inland, pricier beachside",
+    "weekly_budget": {
+      "rent": 230,
+      "food": 80,
+      "transport": 35,
+      "fun": 50,
+      "total": 395
+    },
+    "total_weekly": 395
+  },
+  "uq-brisbane": {
+    "institution_id": "uq-brisbane",
+    "name": "University of Queensland",
+    "tuition_range_low": 8000,
+    "tuition_range_high": 14000,
+    "tuition_comparison": "Around average for Australian unis",
+    "rent_range_low": 220,
+    "rent_range_high": 450,
+    "rent_comparison": "Above average -- inner Brisbane suburb",
+    "weekly_budget": {
+      "rent": 250,
+      "food": 85,
+      "transport": 30,
+      "fun": 55,
+      "total": 420
+    },
+    "total_weekly": 420
+  },
+  "unsw-sydney": {
+    "institution_id": "unsw-sydney",
+    "name": "UNSW Sydney",
+    "tuition_range_low": 8500,
+    "tuition_range_high": 15000,
+    "tuition_comparison": "Above average -- premium Go8 research uni",
+    "rent_range_low": 280,
+    "rent_range_high": 600,
+    "rent_comparison": "Most expensive -- Sydney eastern suburbs",
+    "weekly_budget": {
+      "rent": 310,
+      "food": 90,
+      "transport": 40,
+      "fun": 60,
+      "total": 500
+    },
+    "total_weekly": 500
+  },
+  "unimelb": {
+    "institution_id": "unimelb",
+    "name": "University of Melbourne",
+    "tuition_range_low": 8800,
+    "tuition_range_high": 15500,
+    "tuition_comparison": "Highest -- premium Go8, offset by Melbourne Model breadth",
+    "rent_range_low": 250,
+    "rent_range_high": 550,
+    "rent_comparison": "High -- inner Melbourne, offset by no car needed",
+    "weekly_budget": {
+      "rent": 280,
+      "food": 85,
+      "transport": 25,
+      "fun": 55,
+      "total": 445
+    },
+    "total_weekly": 445
+  }
+}

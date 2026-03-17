@@ -1,0 +1,11 @@
+# Production requirements for streamlit_app_v2.py
+# ---------------------------------------------------
+# Streamlit Community Cloud reads the REPO-ROOT requirements.txt, not this file.
+# Keep this in sync with the root requirements.txt.
+# Pipeline-only deps (geopandas, shapely, pyproj, fiona) are intentionally excluded.
+
+streamlit>=1.32.0
+pandas>=2.0.0
+openai>=1.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0

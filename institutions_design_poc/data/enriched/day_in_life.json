@@ -1,0 +1,277 @@
+{
+  "griffith-gold-coast": {
+    "institution_id": "griffith-gold-coast",
+    "name": "Griffith University Gold Coast",
+    "entries": [
+      {
+        "time": "07:00",
+        "activity": "Morning Surf",
+        "emoji": "\ud83c\udfc4\u200d\u2642\ufe0f",
+        "description": "Catch some early morning waves at Surfers Paradise Beach, just a short drive from campus. Perfect way to kickstart the day!",
+        "photo_prompt": "sunrise surfing at Surfers Paradise Beach, vibrant waves, golden light, energetic students"
+      },
+      {
+        "time": "09:00",
+        "activity": "Brekkie at G's Cafe",
+        "emoji": "\u2615",
+        "description": "Grab an avo toast and flat white at G's Cafe on campus. It's a student favourite and a great spot to meet up with friends.",
+        "photo_prompt": "students enjoying breakfast at G's Cafe, avocado toast, coffee cups, friendly atmosphere, campus vibes"
+      },
+      {
+        "time": "11:00",
+        "activity": "Marine Lab Session",
+        "emoji": "\ud83d\udc20",
+        "description": "Dive into a hands-on marine science lab at Griffith\u2019s Advanced Design and Prototyping Technologies Institute. Investigate local marine life and ecosystems.",
+        "photo_prompt": "students in a marine science lab, examining aquatic specimens, modern equipment, focused learning"
+      },
+      {
+        "time": "14:00",
+        "activity": "Study Jam in Library",
+        "emoji": "\ud83d\udcda",
+        "description": "Hit up the Nathan campus library for a study sesh. The quiet floors are perfect for cramming or group projects.",
+        "photo_prompt": "students studying in Griffith University library, books, laptops, collaborative atmosphere, modern interior"
+      },
+      {
+        "time": "16:00",
+        "activity": "Gym Session",
+        "emoji": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f",
+        "description": "Squeeze in a workout at the uni\u2019s fitness centre. It\u2019s got top-notch equipment, perfect for blowing off steam between classes.",
+        "photo_prompt": "students working out at Griffith University gym, fitness equipment, energetic mood, diverse students"
+      },
+      {
+        "time": "18:00",
+        "activity": "Dinner at Market Square",
+        "emoji": "\ud83c\udf5c",
+        "description": "Head to Market Square in Varsity Lakes for some Asian street food. It's a popular spot for students to unwind and fuel up.",
+        "photo_prompt": "students dining at Market Square, vibrant food stalls, diverse dishes, lively evening atmosphere"
+      },
+      {
+        "time": "20:00",
+        "activity": "Beach Walk at Sunset",
+        "emoji": "\ud83c\udf05",
+        "description": "Stroll down Burleigh Heads Beach, enjoying the stunning sunset views. It's a relaxing way to end a busy uni day.",
+        "photo_prompt": "students walking on Burleigh Heads Beach at sunset, colourful sky, peaceful ocean, serene students"
+      }
+    ]
+  },
+  "unimelb": {
+    "institution_id": "unimelb",
+    "name": "University of Melbourne",
+    "entries": [
+      {
+        "time": "07:00",
+        "activity": "Morning jog at Princes Park",
+        "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f",
+        "description": "Start the day with a refreshing jog around Princes Park, just a stone's throw from campus. Breathe in the crisp morning air.",
+        "photo_prompt": "A student jogging at sunrise through Princes Park, surrounded by green trees and morning mist"
+      },
+      {
+        "time": "09:00",
+        "activity": "Grab brekkie at Seven Seeds",
+        "emoji": "\u2615",
+        "description": "Fuel up with a flat white and avo toast at Seven Seeds, a popular student caf\u00e9 tucked away in Carlton.",
+        "photo_prompt": "A bustling caf\u00e9 interior, with students sipping coffee and eating breakfast, sunlight streaming through large windows"
+      },
+      {
+        "time": "11:00",
+        "activity": "Lecture at Old Arts Building",
+        "emoji": "\ud83d\udcda",
+        "description": "Head to a thought-provoking Arts lecture in the historic Old Arts Building, a true testament to the university's rich history.",
+        "photo_prompt": "A historic university lecture hall, filled with attentive students and an engaging lecturer"
+      },
+      {
+        "time": "13:00",
+        "activity": "Lunch at Union House",
+        "emoji": "\ud83c\udf5c",
+        "description": "Enjoy a variety of lunch options at Union House. Today, it's all about the dumplings from the food court.",
+        "photo_prompt": "A lively food court in Union House, students chatting and eating diverse meals at communal tables"
+      },
+      {
+        "time": "15:00",
+        "activity": "Study session in the Baillieu Library",
+        "emoji": "\ud83d\udcd6",
+        "description": "Crack down on some assignments at the Baillieu Library, surrounded by an inspiring collection of books and resources.",
+        "photo_prompt": "A student studying intently in a library, books and laptops on the table, shelves filled with books in the background"
+      },
+      {
+        "time": "18:00",
+        "activity": "Catch the tram to St Kilda",
+        "emoji": "\ud83d\ude8b",
+        "description": "Hop on the iconic Melbourne tram for a quick ride to St Kilda Beach. Perfect way to unwind after a busy day.",
+        "photo_prompt": "A colourful Melbourne tram traveling through the city, with students inside enjoying the ride and cityscapes"
+      },
+      {
+        "time": "20:00",
+        "activity": "Dinner at Lentil As Anything",
+        "emoji": "\ud83c\udf7d\ufe0f",
+        "description": "Enjoy a pay-as-you-feel dinner at Lentil As Anything in Abbotsford. Great food for a great cause with friends.",
+        "photo_prompt": "A warm, inviting restaurant with communal tables, diverse dishes being served, and happy diners sharing meals"
+      }
+    ]
+  },
+  "jcu-townsville": {
+    "institution_id": "jcu-townsville",
+    "name": "James Cook University",
+    "entries": [
+      {
+        "time": "07:00",
+        "activity": "Morning beach run",
+        "emoji": "\ud83c\udfd6\ufe0f",
+        "description": "Start the day with a refreshing jog along The Strand, enjoying the ocean breeze and stunning sunrise over Magnetic Island.",
+        "photo_prompt": "Joggers on The Strand beach at sunrise, ocean view, Magnetic Island in background, palm trees swaying"
+      },
+      {
+        "time": "09:00",
+        "activity": "Lecture at Eddie Koiki Mabo Library",
+        "emoji": "\ud83d\udcda",
+        "description": "Head to the Eddie Koiki Mabo Library for a Marine Biology lecture, taking notes in the light-filled study spaces.",
+        "photo_prompt": "Students taking notes in Eddie Koiki Mabo Library, bright interior, bookshelves, laptops open, tropical plants indoors"
+      },
+      {
+        "time": "11:30",
+        "activity": "Coffee at Juliette's",
+        "emoji": "\u2615",
+        "description": "Grab a flat white and catch up with mates at Juliette's on Flinders Street, a favourite student hangout.",
+        "photo_prompt": "Friends chatting at Juliette's cafe, Flinders Street, busy urban setting, coffee cups, laughter"
+      },
+      {
+        "time": "13:00",
+        "activity": "Snorkel at Great Barrier Reef",
+        "emoji": "\ud83d\udc20",
+        "description": "Join a research trip to the Great Barrier Reef, marvelling at the vibrant corals and diverse marine life.",
+        "photo_prompt": "Students snorkeling in Great Barrier Reef, colourful corals, tropical fish, crystal clear water, underwater research"
+      },
+      {
+        "time": "15:30",
+        "activity": "Study group at Campus Green",
+        "emoji": "\ud83c\udf34",
+        "description": "Discuss environmental science projects with classmates on the grassy Campus Green, surrounded by tropical flora and fauna.",
+        "photo_prompt": "Students sitting on Campus Green, notebooks and laptops, tropical plants and trees, relaxed atmosphere"
+      },
+      {
+        "time": "18:00",
+        "activity": "Dinner at The Watermark",
+        "emoji": "\ud83c\udf7d\ufe0f",
+        "description": "Enjoy a seafood dinner at The Watermark, sharing stories from the day while overlooking the marina's twinkling lights.",
+        "photo_prompt": "Seafood dinner at The Watermark, waterfront view, marina lights, friends laughing, elegant presentation"
+      },
+      {
+        "time": "20:30",
+        "activity": "Stargazing at Castle Hill",
+        "emoji": "\ud83c\udf0c",
+        "description": "Drive up to Castle Hill for an evening of stargazing, spotting constellations in the clear tropical night sky.",
+        "photo_prompt": "Group stargazing at Castle Hill, vast night sky, visible constellations, Townsville lights below, sense of wonder"
+      }
+    ]
+  },
+  "uq-brisbane": {
+    "institution_id": "uq-brisbane",
+    "name": "University of Queensland",
+    "entries": [
+      {
+        "time": "07:00",
+        "activity": "Morning Kayak on Brisbane River",
+        "emoji": "\ud83d\udea3",
+        "description": "Start the day paddling on the Brisbane River with the UQ Kayak Club, enjoying stunning views of the St Lucia campus.",
+        "photo_prompt": "Students kayaking at sunrise, Brisbane River, lush greenery, St Lucia campus in background, vibrant sky"
+      },
+      {
+        "time": "09:00",
+        "activity": "Coffee at Merlo",
+        "emoji": "\u2615",
+        "description": "Grab a flat white from Merlo Coffee inside the Duhig Building to kickstart your brain for the day ahead.",
+        "photo_prompt": "Barista pouring a flat white at Merlo Coffee, cozy cafe atmosphere, students chatting, books on tables"
+      },
+      {
+        "time": "11:00",
+        "activity": "Lecture in Advanced Engineering",
+        "emoji": "\ud83d\udcda",
+        "description": "Engage in an interactive lecture at the state-of-the-art GCI building, learning about renewable energy systems.",
+        "photo_prompt": "UQ GCI building, students in lecture hall, professor explaining, renewable energy diagrams on screen"
+      },
+      {
+        "time": "13:00",
+        "activity": "Lunch at St. Lucia Village",
+        "emoji": "\ud83e\udd57",
+        "description": "Enjoy a healthy poke bowl from Playa Bowls at the St. Lucia Village, a popular hangout spot for UQ students.",
+        "photo_prompt": "Colourful poke bowl, fresh ingredients, students sitting outside Playa Bowls, vibrant atmosphere"
+      },
+      {
+        "time": "15:00",
+        "activity": "Study Session in Great Court",
+        "emoji": "\ud83d\udcd6",
+        "description": "Find a spot under the shade of the Great Court's iconic sandstone arches to review notes for upcoming exams.",
+        "photo_prompt": "UQ Great Court, students studying under sandstone arches, green lawns, sunlit scene"
+      },
+      {
+        "time": "18:00",
+        "activity": "Society Meetup at UQ Lakes",
+        "emoji": "\ud83c\udf05",
+        "description": "Join the Environmental Management Society for a chill catch-up and some wildlife spotting around UQ Lakes.",
+        "photo_prompt": "UQ Lakes at sunset, students gathered, wildlife in view, relaxed and social atmosphere"
+      },
+      {
+        "time": "20:00",
+        "activity": "Dinner at The Regatta",
+        "emoji": "\ud83c\udf7d\ufe0f",
+        "description": "Catch the CityCat to The Regatta Hotel for a classic Aussie pub dinner with mates overlooking the river.",
+        "photo_prompt": "The Regatta Hotel, lively dinner scene, friends laughing, Brisbane River view, warm lighting"
+      }
+    ]
+  },
+  "unsw-sydney": {
+    "institution_id": "unsw-sydney",
+    "name": "UNSW Sydney",
+    "entries": [
+      {
+        "time": "07:00",
+        "activity": "Morning surf at Bondi",
+        "emoji": "\ud83c\udf0a",
+        "description": "Catch some waves at Bondi Beach before classes. It's an energising way to start the day and popular among students.",
+        "photo_prompt": "student surfing at sunrise, Bondi Beach waves, golden sunlight, surfers in background, vibrant ocean"
+      },
+      {
+        "time": "09:00",
+        "activity": "Coffee at Penny Lane",
+        "emoji": "\u2615",
+        "description": "Grab a flat white at Penny Lane on campus. It's the go-to spot for a quick caffeine fix before lectures.",
+        "photo_prompt": "students at Penny Lane cafe, holding coffee cups, UNSW campus, modern interior, morning sunlight through windows"
+      },
+      {
+        "time": "11:00",
+        "activity": "Lecture in Clancy Auditorium",
+        "emoji": "\ud83d\udcda",
+        "description": "Head to Clancy Auditorium for a stimulating guest lecture in AI. It's an opportunity to learn from industry leaders.",
+        "photo_prompt": "students in Clancy Auditorium, listening to lecturer, dynamic presentation slide, attentive audience"
+      },
+      {
+        "time": "13:00",
+        "activity": "Lunch at The White House",
+        "emoji": "\ud83c\udf54",
+        "description": "Chill out with friends over burgers and chips at The White House. It's the best spot for a hearty lunch on campus.",
+        "photo_prompt": "students eating at The White House, casual setting, burgers and fries, outdoor seating, laughter"
+      },
+      {
+        "time": "15:00",
+        "activity": "Study at The Library",
+        "emoji": "\ud83d\udcd6",
+        "description": "Hit up UNSW Library for some quiet study. The views from the upper floors are perfect for a productive afternoon.",
+        "photo_prompt": "students studying in UNSW Library, books and laptops, panoramic window view, focused atmosphere"
+      },
+      {
+        "time": "18:00",
+        "activity": "Jog in Centennial Park",
+        "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f",
+        "description": "Unwind with a jog around Centennial Park. The lush greenery and open spaces offer a refreshing escape from studies.",
+        "photo_prompt": "student jogging in Centennial Park, sunset hues, tree-lined pathways, serene natural setting"
+      },
+      {
+        "time": "20:00",
+        "activity": "Dinner in Newtown",
+        "emoji": "\ud83c\udf5c",
+        "description": "Venture to Newtown for some tasty Thai food with mates. King Street is buzzing with life and flavours from all over.",
+        "photo_prompt": "students dining in Newtown, vibrant street atmosphere, Thai restaurant, bustling evening, diverse crowd"
+      }
+    ]
+  }
+}

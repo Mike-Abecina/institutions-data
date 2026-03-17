@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//tmp/**)",
+      "Read(//private/tmp/**)",
+      "Bash(.venv/bin/python -c \":*)",
+      "Bash(.venv/bin/python geo_mapping/run.py --from-step 5)",
+      "Bash(.venv/bin/pip install:*)",
+      "Bash(.venv/bin/python reports/vibe_report.py)",
+      "Bash(python3 -c \":*)"
+    ]
+  }
+}
